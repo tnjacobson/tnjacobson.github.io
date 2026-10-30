@@ -1,0 +1,55 @@
+html {
+  background: #fff;
+  color: #1a1a1a;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px 20px 60px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  clear: left;
+}
+strong {
+  font-weight: 700;
+}
+a {
+  color: #1b6e1b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: inherit;
+}
+.profile {
+  float: left;
+  width: 27%;
+  margin: 6px 16px 35px 0;
+}
+.photos img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+@media (max-width: 560px) {
+  .profile {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}
